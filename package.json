@@ -1,8 +1,6 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Mark Wandugu",
-	"weather": "cloudy",
-	"stars": "many",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
