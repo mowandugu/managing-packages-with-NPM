@@ -3,6 +3,7 @@
 	"author": "Mark Magic",
 	"description": "Managing packages with NPM Project",
 	"keywords": ["freecodecamp", "coding", "coding practise", "coding tutorial"],
+	"license": "MIT",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
