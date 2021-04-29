@@ -2,7 +2,11 @@
 	"name": "fcc-learn-npm-package-json",
 	"author": "fun guy",
 	"description": "My first deployed web application",
-	"keywords": [ "freecodecamp", "coding", "project" ],
+	"keywords": [
+		"freecodecamp",
+		"coding",
+		"project"
+	],
 	"license": "MIT",
 	"version": "1.2.0",
 	"dependencies": {
