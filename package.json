@@ -1,10 +1,5 @@
 {
 	"name": "fcc-learn-npm-package-json",
-	"author": "Mark Magic",
-	"description": "Managing packages with NPM Project",
-	"keywords": ["freecodecamp", "coding", "coding practise", "coding tutorial"],
-	"license": "MIT",
-	"version": "1.0.0",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
