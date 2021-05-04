@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var bGround = require('fcc-express-bground');
 require('dotenv').config();
-
+var bodyParser = require('body-parser')
 
 app.use((req, res, next) => {
    console.log(req.method + " " + req.path + " - " + req.ip)
@@ -10,6 +10,12 @@ app.use((req, res, next) => {
    
     next();
 });
+
+app.use((req, res, next) => {
+    bodyParser.urlencoded({extended: false});
+    next();
+})
+
 
 bGround.log("Hello World");
 console.log("Hello World");
